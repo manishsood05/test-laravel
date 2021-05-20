@@ -21,8 +21,8 @@ class EventsController extends BaseController
     - open the `app/Http/Controllers/EventsController` file
     - partial or not working answers also get graded so make sure you commit what you have
 
-    Sample response on GET /events:
-    ```json
+    Sample response on GET /events:*
+    ```json*/
     [
         {
             "id": 1,
@@ -94,7 +94,7 @@ class EventsController extends BaseController
             ]
         }
     ]
-     */
+     
 
     public function getEventsWithWorkshops() {
         throw new \Exception('implement in coding task 1');
